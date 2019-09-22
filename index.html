@@ -113,15 +113,18 @@
 		}
 		/*plus*/
 		document.getElementById("plus").onclick = function() {
-			number = number + "+";
-			document.getElementById("textwiew").value = number;
-
+			if(number) {
+				number = number + "+";
+				document.getElementById("textwiew").value = number;
+			}
 
 		}
 
 		document.getElementById("subtraction").onclick = function() {
-			number = number + "-";
-			document.getElementById("textwiew").value = number;
+			if(number) {
+				number = number + "-";
+				document.getElementById("textwiew").value = number;
+			}
 			
 		}
 		document.getElementById("clear").onclick = function() {
@@ -135,15 +138,17 @@
 		}
 
 		document.getElementById("multiplication").onclick = function() {
-			document.getElementById("textwiew").value = number + "x";
-			number = number + "*";
-			
+			if(number) {
+				document.getElementById("textwiew").value = number + "x";
+				number = number + "*";
+			}
 			
 		}
 		document.getElementById("divide").onclick = function() {
-			number = number + "/";
-			document.getElementById("textwiew").value =number;
-		
+			if(number) {
+				number = number + "/";
+				document.getElementById("textwiew").value =number;
+			}
 		}
 
 		
