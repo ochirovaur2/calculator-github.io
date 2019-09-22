@@ -39,7 +39,7 @@ table{
 	width: 50px;
 	height: 50px;
 	margin:2px;
-	border-radius:  20%;
+	
 	font-size: 25px;
 	color: white;
 	background-color: #332e2e;
@@ -52,7 +52,7 @@ table{
 }
 #eqal{
 	height: 106px;
-	border-radius: 10%;
+	
 }
 .button:hover{
 	background-color: white;
@@ -67,12 +67,4 @@ table{
 	text-align: right;
 	color: black;  
   	
-}
-#textwiewsecond{
-	
-	width: 212px;
-	margin: 5px;
-	font-size: 250%;
-	text-align: right;
-	color: black; 
 }
